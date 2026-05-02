@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env_local/
+
+# Large data and model artifacts
+model/
+train_data/
+test_data/
+outputs/
+logs/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.engine
+
+# Notebooks / debug
+dummy_debug.ipynb
+*_debug.ipynb
+
+# OS
+.DS_Store
+__MACOSX/
+._*
+
+# Secrets
+.env
+*.key
+token.txt
+github_token.txt
+hf_token.txt
